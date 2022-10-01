@@ -1,0 +1,104 @@
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #232323;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .custom-font {
+	font-family: 'Khand', sans-serif;
+  }
+  
+  p {
+	color: #999;
+	font-size: 14px;
+	font-weight: 400;
+  }
+  
+  .navbar {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav-scroll {
+	background: #232323;
+  }
+  
+  .navbar .dropdown-menu {
+	background: #2a2a2a;
+  }
+  
+  .navbar .navbar-nav .dropdown-item:hover,
+  .main-color,
+  .progress-wrap::after{
+	color: #c5a47e !important;
+  }
+  
+  .navbar .dropdown-menu .dropdown-item:after, 
+  .back-color,
+  .line,
+  .cursor-inner,
+  .pace .pace-progress{
+	background: #c5a47e !important;
+  }
+
+  .cursor-outer{
+      border-color: #c5a47e !important;
+  }
+  
+  .main-content {
+	background: #232323;
+  }
+  
+  .color-font {
+	color: #c5a47e;
+	-webkit-text-fill-color: #c5a47e;
+	background: none;
+  }
+
+  .progress-wrap svg.progress-circle path{
+      stroke: #c5a47e;
+  }
+  
+  .sub-bg {
+	background: #1f1f1f;
+  }
+  
+  .line {
+	opacity: .1;
+  }
+  
+  .testimonials .item {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .testimonials .arrows .next, .testimonials .arrows .prev {
+	border-color: rgba(255, 255, 255, 0.3);
+	border-radius: 0;
+  }
+  
+  .team .item.cir .img:after {
+	display: none;
+  }
+
+
+
+
+
+  @media screen and (max-width: 991px){
+
+  .navbar .navbar-collapse {
+      max-height: 340px;
+      overflow: auto;
+      background: #262626;
+      text-align: center;
+      padding: 10px 15px;
+  }
+
+  .nav-scroll .navbar-collapse .active,
+  .light .navbar-collapse .active,
+  .navbar .navbar-nav .nav-link:hover{
+    color: #c5a47e !important;
+  }
+
+}

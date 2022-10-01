@@ -1,0 +1,83 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/06/2020 10:51
+  	*/
+
+	@font-face {
+	  font-family: "Flaticon";
+	  src: url("../../fonts/Flaticon.eot");
+	  src: url("../../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+	    url("../../fonts/Flaticon.woff2") format("woff2"),
+	    url("../../fonts/Flaticon.woff") format("woff"),
+	    url("../../fonts/Flaticon.ttf") format("truetype");
+	  font-weight: normal;
+	  font-style: normal;
+	}
+
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	  font-family: Flaticon;
+	  font-style: normal;
+	}
+
+	.flaticon-sketch:before {
+	  content: "\f100";
+	}
+
+	.flaticon-blueprint:before {
+	  content: "\f101";
+	}
+
+	.flaticon-houses:before {
+	  content: "\f102";
+	}
+
+	.flaticon-side-table:before {
+	  content: "\f103";
+	}
+
+	.flaticon-bathtub:before {
+	  content: "\f104";
+	}
+
+	.flaticon-decorating:before {
+	  content: "\f105";
+	}
+
+	.flaticon-interior-design:before {
+	  content: "\f106";
+	}
+
+	.flaticon-sofa:before {
+	  content: "\f107";
+	}
+
+	.flaticon-stairs:before {
+	  content: "\f108";
+	}
+
+	.flaticon-medieval-house:before {
+	  content: "\f109";
+	}
+
+	.flaticon-property:before {
+	  content: "\f10a";
+	}
+
+	.flaticon-living-room:before {
+	  content: "\f10b";
+	}
+
+	.flaticon-dinner-table:before {
+	  content: "\f10c";
+	}
+
+	.flaticon-kitchen:before {
+	  content: "\f10d";
+	}
+
+	.flaticon-home:before {
+	  content: "\f10e";
+	}
