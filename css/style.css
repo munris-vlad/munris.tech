@@ -5266,8 +5266,6 @@ a:hover, span:hover {
 }
 
 .portfolio-frl .gallery .items .item-img:hover img {
-  -webkit-clip-path: inset(5px 10px);
-  clip-path: inset(5px 10px);
 }
 
 .portfolio-frl .gallery .items .item-img:hover .cont {
