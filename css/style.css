@@ -5247,7 +5247,7 @@ a:hover, span:hover {
 }
 
 .portfolio-frl .gallery .items.lg-mr {
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .portfolio-frl .gallery .items .item-img {
@@ -5263,9 +5263,10 @@ a:hover, span:hover {
 
 .portfolio-frl .gallery .items .item-img > a {
   display: block;
+  text-align: center;
 }
 
-.portfolio-frl .gallery .items .item-img:hover img {
+.portfolio-frl .gallery .items .item-img img {
 }
 
 .portfolio-frl .gallery .items .item-img:hover .cont {
@@ -5273,8 +5274,8 @@ a:hover, span:hover {
 }
 
 .portfolio-frl .gallery .items .item-img img {
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
   -webkit-clip-path: inset(0);
   clip-path: inset(0);
   -o-object-fit: cover;
@@ -5282,10 +5283,11 @@ a:hover, span:hover {
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
+  border-radius: 50%;
 }
 
 .portfolio-frl .gallery .items .cont {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .portfolio-frl .gallery .items .cont h6 {
