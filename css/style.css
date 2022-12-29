@@ -5271,6 +5271,7 @@ a:hover, span:hover {
 
 .portfolio-frl .gallery .items .item-img:hover .cont {
   opacity: 1;
+
 }
 
 .portfolio-frl .gallery .items .item-img img {
@@ -5288,6 +5289,8 @@ a:hover, span:hover {
 
 .portfolio-frl .gallery .items .cont {
   margin-bottom: 15px;
+  margin-top: 25px;
+  text-align: center;
 }
 
 .portfolio-frl .gallery .items .cont h6 {
@@ -5298,6 +5301,7 @@ a:hover, span:hover {
 
 .portfolio-frl .gallery .items .cont p {
   font-size: 13px;
+  line-height: 18px;
 }
 
 .portfolio-frl .gallery .items .tags {
