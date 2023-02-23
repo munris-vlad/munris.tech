@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="munris, validator, crypto, cosmos, atom, stride, rebus, teritori, canto" />
+    <meta name="description" content="Munris - independent validator" />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Munris | Forta dashboard</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/ava-nobg.png" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5NVP5Y56M"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-J5NVP5Y56M');
+    </script>
+
+    <style>
+        .indicator-online {
+            background: #28B62C;
+            display: inline-block;
+            width: 0.5em;
+            height: 0.5em;
+            border-radius: 50%;
+            -webkit-animation: pulse-animation 2s infinite linear;
+        }
+
+        @-webkit-keyframes pulse-animation {
+            0% { -webkit-transform: scale(1); }
+            25% { -webkit-transform: scale(1); }
+            50% { -webkit-transform: scale(1.2) }
+            75% { -webkit-transform: scale(1); }
+            100% { -webkit-transform: scale(1); }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- ==================== Start Loading ==================== -->
+
+    <div id="preloader">
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="logo" href="/">
+                <img src="img/ava-nobg.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Who am I</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/#networks">Networks</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== End Navbar ==================== -->
+
+    <section class="page-header sub-bg pb-5 forta-header">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-9">
+                    <div class="cont text-center">
+                        <h4 class="mb-10"><span class="color-font">Stake with me in</span> <a href="https://app.forta.network/nodePool/38/" target="_blank">Pool №38</a></h4>
+                        <p>Epoch avg SLA: <span id="pool-sla">0</span> <span class="indicator-online"></span></p>
+                        <p>Commission: 10%</p>
+                        <p>Self-stake: 57,500 $FORT</p>
+                        <br>
+                        <p>Hosted on bare metal servers and using own Ethereum full-node.</p>
+                        <p>Monitoring 24/7 and fast support.</p>
+                        <a href="https://app.forta.network/nodePool/38/" target="_blank" class="butn bord curve mt-30">Stake</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-pg blog-list section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <div class="text-center">
+                        <h6 class="wow fadeIn" data-wow-delay=".5s">Scanners</h6>
+                        <h5 class="wow color-font">that are now running</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-11">
+                    <div class="posts mt-80">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================== Start Footer ==================== -->
+
+    <footer class="sub-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center align-content-center">
+                    <div class="item">
+                        <div class="logo">
+                            <img src="img/ava-nobg.png" alt="">
+                        </div>
+                        <div class="social">
+                            <a href="https://t.me/munris_vlad"><i class="fab fa-telegram"></i></a>
+                            <a href="https://twitter.com/munris_vlad"><i class="fab fa-twitter"></i></a>
+                            <a href="https://github.com/munris-vlad"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="copy-right">
+                            <p>© 2023, munris.tech</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== End Footer ==================== -->
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="js/plugins.js"></script>
+
+    <!-- animated.headline -->
+    <script src="js/animated.headline.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var scanners = [
+                '0x9EBDebcD46621bD64e9d491C075604441D35a2B9',
+                '0xDFa19Af700C4c7B4449A0D1E22d44853405A3673',
+                '0x6f1aF41f650C7c7Eb3fDAb03CA0dA0b5D4d90eEd',
+                '0xc504B198943Eaa519705a4CF0F7114e7fE999052',
+                '0x3Fb905305Afd987a294A954CB08EcCb8F863e233',
+                '0x17ad1C637479c9BaC687E6E187De039076dF8249',
+                '0xD19408D4C4f3C478e0F434cB196E69d796B16E93',
+                '0xfBE9265179723E9756686b8D5d3e818bc8e79540',
+                '0x765b96fFA41Bc9a45f59833b5AF0230603b54890',
+                '0x74c2456568D2453E66C92F255d013d0bF74eB76d',
+                '0xECeC62375c519A15c94D5B16D4B31aB903538bC1',
+                '0x3Ba2d1b3FcDDe91bcD752c6D1038645BD7e5F44F',
+                '0x6b24775E7fcd8b40FDfCfEeCd683b6Ea5A4eB6b4',
+                '0x36f0eece37A509B3F71F59939d847819d2d8834A',
+                '0x3665697B88d9aCD6F6450fAfa2c052b236e442A3',
+                '0xed3EAd97600bbdf81877B91154aa58acA2582306',
+                '0xb3C1b424A7AFDF2aCF0E2283A2c8b338238e5183',
+                '0x55a747e844152cF0e67e8F3a589c67Cc05e2Ef75',
+                '0x0b1Ae36D16c817c414284e3Cce6065b9e9B733dF',
+                '0x31c796f97C206be817045cC4443f4A8e80dcfd17',
+                '0x6f8a503e5FE0AAd039D7BfF03c96CCd459580f15',
+                '0x04c2b30d42C6ae66e4D0e2902b1695faCF327403',
+                '0x99214E000ceA43Ca81a767C62219f5D12683Dd61'
+            ];
+
+            const currentDate = new Date();
+            const firstDayOfWeekDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() - currentDate.getDay()+1);
+
+            const scanner = ({ number, address, sla }) => `
+              <div class="item mb-80 wow fadeInUp" data-wow-delay=".1s">
+                    <div class="row">
+                        <div class="col-lg-8 valign">
+                            <div class="cont">
+                                <div>
+                                    <h5>
+                                        <a href="https://explorer.forta.network/scan-node/${address}" target="_blank">${address}</a>
+                                    </h5>
+                                    <p>Uptime for current epoch: ${sla}% <span class="indicator-online"></span></p>
+                                    <p>Self-stake: 2500 $FORT</p>
+                                    <div class="btn-more mt-30">
+                                        <a href="https://explorer.forta.network/scan-node/${address}" target="_blank" class="simple-btn">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            var avgSla = 0;
+            var completedRequests = 0;
+            scanners.forEach(function (item, i, scanners) {
+                console.log(item);
+                var sla = 0;
+                $.getJSON(`https://api.forta.network/stats/sla/scanner/${item}?startTime=${firstDayOfWeekDate.toISOString()}`, function(data) {
+                    sla = Math.round(data.statistics.avg * 100);
+                    avgSla = avgSla + sla;
+                    $('.posts').append(scanner({
+                        number: i+1,
+                        address: item,
+                        sla: sla
+                    }));
+
+                    completedRequests++;
+                    if (completedRequests === scanners.length) {
+                        avgSla = Math.round(avgSla / scanners.length);
+                        $('#pool-sla').text(avgSla + '%');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
